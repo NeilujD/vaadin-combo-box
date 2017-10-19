@@ -659,17 +659,6 @@
       e.stopPropagation();
     },
 
-    /**
-     * Validates the input element and sets an error style if needed.
-     *
-     * @return {boolean}
-     */
-    _getValidity: function() {
-      if (this._bindableInput.validate) {
-        return this._bindableInput.validate();
-      }
-    },
-
     get _instanceProps() {
       return {
         item: true,
